@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő-Papír-Olló</title>
+    <link rel="stylesheet" href="kopapirollo.css">
+</head>
+<body>
+    <div class="header">
+        <span class="score">Játékos: <span id="playerScore">0</span> | Bot: <span id="botScore">0</span></span>
+        <button onclick="location.href='gamehub.html'" class="back-button">Back</button>
+    </div>
+    <div class="game-container">
+        <div class="choices">
+            <button class="choice" data-choice="Kő">Kő</button>
+            <button class="choice" data-choice="Papír">Papír</button>
+            <button class="choice" data-choice="Olló">Olló</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="kopapirollo.js"></script>
+</body>
+</html>
